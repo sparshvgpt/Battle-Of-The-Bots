@@ -1,0 +1,7 @@
+# Battle of the Bots (SOC 2025) Midterm Progress Report
+
+Mentored by **Sandeep Reddy Nallamilli** and **Yash Sabale**
+
+## Summary of what I have learned so far
+I started with learning the theory behind neural networks and PyTorch implementation of them using tensors, gradients and basic autograd mechanics manually as well as using PyTorch's nn.Sequential and extending the nn.Module class. I also learned how to write complete training loops, including the forward pass, loss calculation, backward pass via .backward(), and parameter updates using optimizers. I trained a manually implemented model (using matrix multiplication) on the MNIST dataset for digit classification and another model on the CIFAR100 dataset for image classification. I learned about 
+reinforcment learning and different RL algorithms used to train agents, starting with the Multi-Armed Bandit problem. I learned how to maintain a good balance between exploration and exploitation using epsilon-greedy and upper confidence bound (UCB) strategies. I implemented tabular Q-learning where expected rewards for each state-action pair are stored in a lookup table and updated using the Bellman equation. I learned about different RL algorithms for training an agent such as Dynamic Programming, Monte Carlo methods and Temporal Difference methods. Now, I'm currently learning about deep Q networks (DQNs) and how they are implemented using PyTorch. 
